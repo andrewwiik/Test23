@@ -1421,7 +1421,136 @@ if ($index == 0) {
 			<div>
 			<?php $Multi = html_entity_decode(html_entity_decode($pkg_assoc['Multi']));
 			echo $Multi ?>
+
+			<div class="slick_demo_2 slick-initialized slick-slider"><button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;">Previous</button>
+
+                        
+                        
+                        
+                        
+                    <div aria-live="polite" class="slick-list draggable" style="padding: 0px 50px;"><div class="slick-track" style="opacity: 1; width: 5088px; transform: translate3d(-1696px, 0px, 0px);" role="listbox"><div class="slick-slide slick-cloned" tabindex="-1" role="option" aria-describedby="slick-slide10" style="width: 424px;" data-slick-index="-4" aria-hidden="true">
+                            <div class="ibox-content">
+                                <h2>Slide 1</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div><div class="slick-slide slick-cloned" tabindex="-1" role="option" aria-describedby="slick-slide11" style="width: 424px;" data-slick-index="-3" aria-hidden="true">
+                            <div class="ibox-content">
+                                <h2>Slide 2</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div><div class="slick-slide slick-cloned" tabindex="-1" role="option" aria-describedby="slick-slide12" style="width: 424px;" data-slick-index="-2" aria-hidden="true">
+                            <div class="ibox-content">
+                                <h2>Slide 3</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div><div class="slick-slide slick-cloned" tabindex="-1" role="option" aria-describedby="slick-slide13" style="width: 424px;" data-slick-index="-1" aria-hidden="true">
+                            <div class="ibox-content">
+                                <h2>Slide 4</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div><div class="slick-slide slick-active" tabindex="0" role="option" aria-describedby="slick-slide10" style="width: 424px;" data-slick-index="0" aria-hidden="false">
+                            <div class="ibox-content">
+                                <h2>Slide 1</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div><div class="slick-slide slick-current slick-active slick-center" tabindex="0" role="option" aria-describedby="slick-slide11" style="width: 424px;" data-slick-index="1" aria-hidden="false">
+                            <div class="ibox-content">
+                                <h2>Slide 2</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div><div class="slick-slide slick-active" tabindex="0" role="option" aria-describedby="slick-slide12" style="width: 424px;" data-slick-index="2" aria-hidden="false">
+                            <div class="ibox-content">
+                                <h2>Slide 3</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div><div class="slick-slide" tabindex="-1" role="option" aria-describedby="slick-slide13" style="width: 424px;" data-slick-index="3" aria-hidden="true">
+                            <div class="ibox-content">
+                                <h2>Slide 4</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div><div class="slick-slide slick-cloned" tabindex="-1" role="option" aria-describedby="slick-slide10" style="width: 424px;" data-slick-index="4" aria-hidden="true">
+                            <div class="ibox-content">
+                                <h2>Slide 1</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div><div class="slick-slide slick-cloned" tabindex="-1" role="option" aria-describedby="slick-slide11" style="width: 424px;" data-slick-index="5" aria-hidden="true">
+                            <div class="ibox-content">
+                                <h2>Slide 2</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div><div class="slick-slide slick-cloned" tabindex="-1" role="option" aria-describedby="slick-slide12" style="width: 424px;" data-slick-index="6" aria-hidden="true">
+                            <div class="ibox-content">
+                                <h2>Slide 3</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div><div class="slick-slide slick-cloned" tabindex="-1" role="option" aria-describedby="slick-slide13" style="width: 424px;" data-slick-index="7" aria-hidden="true">
+                            <div class="ibox-content">
+                                <h2>Slide 4</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap.
+                                </p>
+                            </div>
+                        </div></div></div><button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;">Next</button></div>
 			<hr>
+
 			<p style="text-align: center;"><?php _e('Version'); ?> <strong><?php echo($pkg_assoc['Version']); ?></strong> | <?php _e('Downloads'); ?> <strong><?php echo($pkg_assoc['DownloadTimes']); ?></strong></p>
 			<p style="text-align: center;"><?php _e('Last Updated'); ?> <strong><?php echo($pkg_assoc['CreateStamp']); ?></strong></p>
 			<p style="text-align: center;"><?php echo(nl2br($pkg_assoc['Description'])); ?></p>
@@ -1443,6 +1572,7 @@ if ($index == 0) {
 
 
                     </div>
+
 		</panel>
 <?php
 if ($index == 2) {
