@@ -1409,25 +1409,7 @@ if ($index == 0) {
 	}
 }
 ?>
-		</panel>
-<?php
-if ($index == 2) {
-?>
-		<script src="<?php echo(SITE_URL); ?>js/scroll.js" type="text/javascript"></script>
-<?php
-}
-?>
-		<script src="<?php echo(SITE_URL); ?>js/main.js" type="text/javascript"></script>
-<?php
-if (defined("AUTOFILL_STATISTICS")) {
-?>
-		<div style="text-align: center; display: none;">
-			<?php echo(AUTOFILL_STATISTICS); ?>
-		</div>
-<?php
-}
-?>
-                    <div class="tabs-container">
+		                    <div class="tabs-container">
                         <ul class="nav nav-tabs">
                             <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true">Description</a></li>
                             <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">More Info</a></li>
@@ -1464,5 +1446,24 @@ if (defined("AUTOFILL_STATISTICS")) {
 
 
                     </div>
+		</panel>
+<?php
+if ($index == 2) {
+?>
+		<script src="<?php echo(SITE_URL); ?>js/scroll.js" type="text/javascript"></script>
+<?php
+}
+?>
+		<script src="<?php echo(SITE_URL); ?>js/main.js" type="text/javascript"></script>
+<?php
+if (defined("AUTOFILL_STATISTICS")) {
+?>
+		<div style="text-align: center; display: none;">
+			<?php echo(AUTOFILL_STATISTICS); ?>
+		</div>
+<?php
+}
+?>
+
 	</body>
 </html>
