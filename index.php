@@ -230,6 +230,8 @@ if ($isCydia) {
     <link href="<?php echo(SITE_URL); ?>mange/css/plugins/dropzone/dropzone.css" rel="stylesheet">
     <link href="<?php echo(SITE_URL); ?>manage/css/plugins/summernote/summernote.css" rel="stylesheet">
     <link href="<?php echo(SITE_URL); ?>manage/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
+    <link href="<?php echo(SITE_URL); ?>manage/css/plugins/slick/slick.css" rel="stylesheet">
+    <link href="<?php echo(SITE_URL); ?>manage/css/plugins/slick/slick-theme.css" rel="stylesheet">
     <link href="<?php echo(SITE_URL); ?>manage/css/animate.css" rel="stylesheet">
     <link href="<?php echo(SITE_URL); ?>manage/css/style.css" rel="stylesheet">
 
@@ -243,7 +245,9 @@ if ($isCydia) {
     <script src="<?php echo(SITE_URL); ?>manage/js/plugins/toastr/toastr.min.js"></script>
     <script src="<?php echo(SITE_URL); ?>manage/js/plugins/dropzone/dropzone.js"></script>
     <script src="<?php echo(SITE_URL); ?>manage/js/plugins/summernote/summernote.min.js"></script>
-        <script src="<?php echo(SITE_URL); ?>manage/js/inspinia.js"></script>
+    <script src="<?php echo(SITE_URL); ?>manage/js/plugins/slick/slick.min.js"></script>
+    <script src="<?php echo(SITE_URL); ?>manage/js/inspinia.js"></script>
+    <script src="<?php echo(SITE_URL); ?>manage/js/inspinia.js"></script>
     <script src="manage/js/plugins/pace/pace.min.js"></script>
 
 		<link rel="stylesheet" href="<?php echo(SITE_URL); ?>css/scroll.min.css">

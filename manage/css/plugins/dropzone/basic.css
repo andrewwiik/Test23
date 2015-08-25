@@ -9,6 +9,7 @@
 }
 .dropzone {
   position: relative;
+  border: 1px solid rgba(0,0,0,0.08);
   background: rgba(0,0,0,0.02);
   padding: 1em;
 }
@@ -41,6 +42,7 @@
   display: inline-block;
   margin: 17px;
   vertical-align: top;
+  border: 1px solid #acacac;
   padding: 6px 6px 6px 6px;
 }
 .dropzone .dz-preview.dz-file-preview [data-dz-thumbnail],

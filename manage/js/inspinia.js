@@ -8,6 +8,7 @@
 
 $(document).ready(function () {
 
+
     // Add body-small class if window less than 768px
     if ($(this).width() < 769) {
         $('body').addClass('body-small')
@@ -36,6 +37,18 @@ $(document).ready(function () {
     $('.close-link').click(function () {
         var content = $(this).closest('div.ibox');
         content.remove();
+    });
+
+    // Fullscreen ibox function
+    $('.fullscreen-link').click(function() {
+        var ibox = $(this).closest('div.ibox');
+        var button = $(this).find('i');
+        $('body').toggleClass('fullscreen-ibox-mode');
+        button.toggleClass('fa-expand').toggleClass('fa-compress');
+        ibox.toggleClass('fullscreen');
+        setTimeout(function() {
+            $(window).trigger('resize');
+        }, 100);
     });
 
     // Close menu in canvas mode
@@ -79,10 +92,10 @@ $(document).ready(function () {
 
     // Append config box / Only for demo purpose
     // Uncomment on server mode to enable XHR calls
-    //$.get("skin-config.html", function (data) {
-    //    if (!$('body').hasClass('no-skin-config'))
-    //        $('body').append(data);
-    //});
+    $.get("skin-config.html", function (data) {
+        if (!$('body').hasClass('no-skin-config'))
+            $('body').append(data);
+    });
 
     // Minimalize menu
     $('.navbar-minimalize').click(function () {
