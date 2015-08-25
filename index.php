@@ -1595,7 +1595,7 @@ if (defined("AUTOFILL_STATISTICS")) {
 <?php
 }
 ?>
-style>
+<style>
         .slick_demo_2 .ibox-content {
             margin: 0 10px;
         }
