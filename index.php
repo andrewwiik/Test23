@@ -1418,17 +1418,14 @@ if ($index == 0) {
                             <div id="tab-1" class="tab-pane active">
                                 <div class="panel-body">
                                    
-			<block>
-					<p><?php _e('Version'); ?> <strong><?php echo($pkg_assoc['Version']); ?></strong> | <?php _e('Downloads'); ?> <strong><?php echo($pkg_assoc['DownloadTimes']); ?></strong></p>
-					<p><?php _e('Last Updated'); ?> <strong><?php echo($pkg_assoc['CreateStamp']); ?></strong></p>
-
-					<p><?php echo(nl2br($pkg_assoc['Description'])); ?></p>
-			<fieldset>
 			<div>
 			<?php $Multi = html_entity_decode(html_entity_decode($pkg_assoc['Multi']));
 			echo $Multi ?>
+			<br />
+			<p><?php _e('Version'); ?> <strong><?php echo($pkg_assoc['Version']); ?></strong> | <?php _e('Downloads'); ?> <strong><?php echo($pkg_assoc['DownloadTimes']); ?></strong></p>
+			<p><?php _e('Last Updated'); ?> <strong><?php echo($pkg_assoc['CreateStamp']); ?></strong></p>
+			<p><?php echo(nl2br($pkg_assoc['Description'])); ?></p>
 			</div>
-			</fieldset>
                                 </div>
                             </div>
                             <div id="tab-2" class="tab-pane">
