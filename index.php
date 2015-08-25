@@ -1422,12 +1422,12 @@ if ($index == 0) {
                             <div id="tab-1" class="tab-pane active">
                                 <div class="panel-body">
                                    
-			<div>
+						<div>
 			<?php $Multi = html_entity_decode(html_entity_decode($pkg_assoc['Multi']));
 			echo $Multi ?>
-			<fieldset>
-<block>
-<div class="slick_demo_2" style="width:auto">
+			<br />
+<div class="col-lg-12">
+<div class="slick_demo_3" style="width:auto">
 
                         <div>
                             <div class="ibox-content">
@@ -1476,7 +1476,6 @@ if ($index == 0) {
                     </div>
                 </div>
                 </div>
-                </fieldset>
                 <script type="text/javascript">
         $(document).ready(function(){
 
@@ -1485,19 +1484,22 @@ if ($index == 0) {
                 dots: true
             });
 
-                        $('.slick_demo_2').slick({
+            $('.slick_demo_2').slick({
                 infinite: true,
-                speed: 500,
-                fade: true,
-                cssEase: 'linear',
-                adaptiveHeight: true
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                centerMode: true,
+                  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
             });
 
             $('.slick_demo_3').slick({
                 infinite: true,
                 speed: 500,
-                fade: true,
                 cssEase: 'linear',
+                slidesToShow: 1,
+  				slidesToScroll: 1,
                 adaptiveHeight: true
             });
         });
