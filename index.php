@@ -247,14 +247,12 @@ if ($isCydia) {
     <script src="<?php echo(SITE_URL); ?>manage/js/plugins/summernote/summernote.min.js"></script>
     <script src="<?php echo(SITE_URL); ?>manage/js/plugins/slick/slick.min.js"></script>
     <script src="<?php echo(SITE_URL); ?>manage/js/inspinia.js"></script>
-    <script src="<?php echo(SITE_URL); ?>manage/js/inspinia.js"></script>
     <script src="manage/js/plugins/pace/pace.min.js"></script>
 
 		<link rel="stylesheet" href="<?php echo(SITE_URL); ?>css/scroll.min.css">
 <?php if(is_rtl()){ ?><?php } ?>
 <?php if(file_exists(ROOT.'css/font/'.($local_css = substr($locale, 0, 2)).'.css') || file_exists(ROOT.'css/font/' . ($local_css = $locale) . '.css')): ?>	<link rel="stylesheet" type="text/css" href="<?php echo(SITE_URL); ?>css/font/<?php echo $local_css; ?>.css"><?php echo("\n"); endif; ?>
 		<script src="<?php echo(SITE_URL); ?>js/fastclick.js" type="text/javascript"></script>
-		<script src="<?php echo(SITE_URL); ?>js/menes.js" type="text/javascript"></script>
 		<script src="<?php echo(SITE_URL); ?>js/cytyle.js" type="text/javascript"></script>
 	</head>
 	<body class="pinstripe">
@@ -1415,14 +1413,14 @@ if ($index == 0) {
 ?>
 		                    <div class="tabs-container">
                         <ul class="nav nav-tabs">
-                            <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true">Description</a></li>
+                            <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true">Details</a></li>
                             <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">More Info</a></li>
                         </ul>
                         <div class="tab-content">
                             <div id="tab-1" class="tab-pane active">
                                 <div class="panel-body">
                                    
-						<div>
+			<div>
 			<?php $Multi = html_entity_decode(html_entity_decode($pkg_assoc['Multi']));
 			echo $Multi ?>
 			<br />
@@ -1476,6 +1474,19 @@ if ($index == 0) {
                     </div>
                 </div>
                 </div>
+                </div></div>
+<div id="tab-2" class="tab-pane">
+                                <div class="panel-body">
+                                    <strong>Donec quam felis</strong>
+
+                                    <p>Thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects
+                                        and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath </p>
+
+                                    <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite
+                                        sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet.</p>
+                                </div>
+                            </div>
+                        </div>
                 <script type="text/javascript">
         $(document).ready(function(){
 
