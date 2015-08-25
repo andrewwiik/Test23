@@ -223,13 +223,7 @@ if ($isCydia) {
 		<link href="<?php echo(SITE_URL); ?>manage/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="<?php echo(SITE_URL); ?>css/menes.min.css">
     <link href="<?php echo(SITE_URL); ?>manage/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="<?php echo(SITE_URL); ?>manage/css/plugins/iCheck/custom.css" rel="stylesheet">
-    <link href="<?php echo(SITE_URL); ?>manage/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
     <link href="<?php echo(SITE_URL); ?>manage/css/plugins/toastr/toastr.min.css" rel="stylesheet">
-    <link href="<?php echo(SITE_URL); ?>manage/css/plugins/dropzone/basic.css" rel="stylesheet">
-    <link href="<?php echo(SITE_URL); ?>mange/css/plugins/dropzone/dropzone.css" rel="stylesheet">
-    <link href="<?php echo(SITE_URL); ?>manage/css/plugins/summernote/summernote.css" rel="stylesheet">
-    <link href="<?php echo(SITE_URL); ?>manage/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
     <link href="<?php echo(SITE_URL); ?>manage/css/plugins/slick/slick.css" rel="stylesheet">
     <link href="<?php echo(SITE_URL); ?>manage/css/plugins/slick/slick-theme.css" rel="stylesheet">
     <link href="<?php echo(SITE_URL); ?>manage/css/animate.css" rel="stylesheet">
@@ -239,15 +233,9 @@ if ($isCydia) {
     <script src="<?php echo(SITE_URL); ?>manage/js/bootstrap.min.js"></script>
     <script src="<?php echo(SITE_URL); ?>manage/js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="<?php echo(SITE_URL); ?>manage/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-    <script src="<?php echo(SITE_URL); ?>manage/js/plugins/iCheck/icheck.min.js"></script>
-    <script src="<?php echo(SITE_URL); ?>manage/js/plugins/footable/footable.all.min.js"></script>
-    <script src="<?php echo(SITE_URL); ?>manage/js/plugins/sweetalert/sweetalert.min.js"></script>
     <script src="<?php echo(SITE_URL); ?>manage/js/plugins/toastr/toastr.min.js"></script>
-    <script src="<?php echo(SITE_URL); ?>manage/js/plugins/dropzone/dropzone.js"></script>
-    <script src="<?php echo(SITE_URL); ?>manage/js/plugins/summernote/summernote.min.js"></script>
     <script src="<?php echo(SITE_URL); ?>manage/js/plugins/slick/slick.min.js"></script>
     <script src="<?php echo(SITE_URL); ?>manage/js/inspinia.js"></script>
-    <script src="manage/js/plugins/pace/pace.min.js"></script>
 
 		<link rel="stylesheet" href="<?php echo(SITE_URL); ?>css/scroll.min.css">
 <?php if(is_rtl()){ ?><?php } ?>
