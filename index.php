@@ -225,26 +225,26 @@ if ($isCydia) {
     <link href="/manage/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="/manage/css/plugins/iCheck/custom.css" rel="stylesheet">
     <link href="/manage/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
-    <link href="/maangecss/plugins/toastr/toastr.min.css" rel="stylesheet">
-    <link href="/maangecss/plugins/dropzone/basic.css" rel="stylesheet">
-    <link href="/maangecss/plugins/dropzone/dropzone.css" rel="stylesheet">
-    <link href="/maangecss/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="/mange/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="/mange/css/plugins/dropzone/basic.css" rel="stylesheet">
+    <link href="/mange/css/plugins/dropzone/dropzone.css" rel="stylesheet">
+    <link href="/mange/css/plugins/summernote/summernote.css" rel="stylesheet">
     <link href="/manage/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
     <link href="/manage/css/animate.css" rel="stylesheet">
     <link href="/manage/css/style.css" rel="stylesheet">
 
     <script src="/manage/js/jquery-2.1.1.js"></script>
     <script src="/manage/js/bootstrap.min.js"></script>
-    <script src="/maangejs/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="/maangejs/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-    <script src="/maangejs/plugins/iCheck/icheck.min.js"></script>
-    <script src="/maangejs/plugins/footable/footable.all.min.js"></script>
-    <script src="/maangejs/plugins/sweetalert/sweetalert.min.js"></script>
-    <script src="/maangejs/plugins/toastr/toastr.min.js"></script>
-    <script src="/maangejs/plugins/dropzone/dropzone.js"></script>
-    <script src="/maange/js/plugins/summernote/summernote.min.js"></script>
-        <script src="/maangejs/inspinia.js"></script>
-    <script src="/maangejs/plugins/pace/pace.min.js"></script>
+    <script src="/mangejs/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="/mangejs/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="/mangejs/plugins/iCheck/icheck.min.js"></script>
+    <script src="/mangejs/plugins/footable/footable.all.min.js"></script>
+    <script src="/mangejs/plugins/sweetalert/sweetalert.min.js"></script>
+    <script src="/mangejs/plugins/toastr/toastr.min.js"></script>
+    <script src="/mangejs/plugins/dropzone/dropzone.js"></script>
+    <script src="/mange/js/plugins/summernote/summernote.min.js"></script>
+        <script src="/mangejs/inspinia.js"></script>
+    <script src="/mangejs/plugins/pace/pace.min.js"></script>
 
 		<link rel="stylesheet" href="<?php echo(SITE_URL); ?>css/scroll.min.css">
 <?php if(is_rtl()){ ?><?php } ?>
