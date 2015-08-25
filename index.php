@@ -1426,7 +1426,7 @@ if ($index == 0) {
 			<?php $Multi = html_entity_decode(html_entity_decode($pkg_assoc['Multi']));
 			echo $Multi ?>
 
-<div class="slick_demo_2">
+<div class="slick_demo_2" style="width:100%">
 
                         <div>
                             <div class="ibox-content">
