@@ -1427,7 +1427,7 @@ if ($index == 0) {
 			echo $Multi ?>
 			<fieldset>
 <block>
-<div class="slick_demo_2" style="width:100vw">
+<div class="slick_demo_2" style="width:auto">
 
                         <div>
                             <div class="ibox-content">
