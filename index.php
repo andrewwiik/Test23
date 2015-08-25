@@ -691,11 +691,6 @@ if ($index == 0) {
 ?>
 			<block>
 <?php
-			if (DCRM_MOREINFO == 2) {
-?>
-					<p><?php _e('Version'); ?> <strong><?php echo($pkg_assoc['Version']); ?></strong> | <?php _e('Downloads'); ?> <strong><?php echo($pkg_assoc['DownloadTimes']); ?></strong></p>
-					<p><?php _e('Last Updated'); ?> <strong><?php echo($pkg_assoc['CreateStamp']); ?></strong></p>
-<?php
 			}
 			if (DCRM_MOREINFO == 2 && (DCRM_DESCRIPTION == 2 || (empty($pkg_assoc['Multi']) && DCRM_MULTIINFO == 2))) echo '<hr />';
 			if (DCRM_DESCRIPTION == 2 || (empty($pkg_assoc['Multi']) && DCRM_MULTIINFO == 2)) {
@@ -715,6 +710,11 @@ if ($index == 0) {
 			echo $Multi ?>
 			</div>
 			</fieldset>
+			<?php
+			if (DCRM_MOREINFO == 2) {
+?>
+					<p><?php _e('Version'); ?> <strong><?php echo($pkg_assoc['Version']); ?></strong> | <?php _e('Downloads'); ?> <strong><?php echo($pkg_assoc['DownloadTimes']); ?></strong></p>
+					<p><?php _e('Last Updated'); ?> <strong><?php echo($pkg_assoc['CreateStamp']); ?></strong></p>
                                 </div>
                             </div>
                             <div id="tab-2" class="tab-pane">
