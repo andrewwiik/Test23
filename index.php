@@ -1424,7 +1424,7 @@ if ($index == 0) {
                                 </div>
                             </div>
                         </div>
-                <script type="text/javascript">
+                <1script type="text/javascript">
             $('.slick_demo_1').slick({
                 dots: true
             });
@@ -1447,7 +1447,7 @@ if ($index == 0) {
   				slidesToScroll: 1,
                 adaptiveHeight: true
             });
-    </script>
+    </1script>
 
 		</panel>
 <?php
