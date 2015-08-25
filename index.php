@@ -1425,7 +1425,8 @@ if ($index == 0) {
 			<div>
 			<?php $Multi = html_entity_decode(html_entity_decode($pkg_assoc['Multi']));
 			echo $Multi ?>
-
+			<fieldset>
+<block>
 <div class="slick_demo_2" style="width:100vw">
 
                         <div>
@@ -1474,6 +1475,8 @@ if ($index == 0) {
                         </div>
                     </div>
                 </div>
+                </div>
+                </fieldset>
                 <script type="text/javascript">
         $(document).ready(function(){
 
